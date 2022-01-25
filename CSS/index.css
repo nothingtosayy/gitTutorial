@@ -1,0 +1,271 @@
+#main-header{
+    text-align: center;
+    color:ghostwhite;
+    background-color: black;
+    padding: 15px;
+}
+
+#main-footer{
+    text-align: center;
+    color: ghostwhite;
+    background-color: black;
+    padding: 12px;
+    width: auto;
+}
+
+body{
+    background-color:white ;
+    color: black ;
+    font-size: 16px;
+    font-family: 'comic sans MS';
+    font-weight: lighter;
+    line-height: 1.6em;
+
+    /* same as above*/
+    /* font: lighter 16px comic sans MS; */
+    
+}
+
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+.main-article-1{
+    background-color: rgb(59, 51, 51);
+    color: white;
+    border-right:5px aqua solid;
+    border-left: 5px aqua solid;
+    border-top: 5px aqua solid;
+    border-bottom: 5px aqua solid;
+
+
+    border-right-color: goldenrod;
+    border-right-width: 5px;
+    border-right-style: solid;
+
+    border-left-color: goldenrod;
+    border-left-width: 5px;
+    border-left-style: solid;
+
+    border-radius:15px;
+
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.main-article-1 h3{
+    font-family: Tahoma;
+    font-size: larger;
+    font-weight: 800;
+    font-style: oblique;
+    text-decoration: underline;
+    letter-spacing: 0.2em;
+    word-spacing: 1em;
+}
+
+.main-article-2{
+    background-color: aqua;
+    font-family: 'Book man old';
+    font-weight: bold;
+    font-style: oblique;
+    font-size: larger;
+
+    border-right-width: 5px;
+    border-right-color: black;
+    border-right-style: solid;
+
+    border-left-width: 5px;
+    border-left-color: black;
+    border-left-style: solid;
+
+    border-top-width: 5px;
+    border-top-color: black;
+    border-top-style: solid;
+
+    border-bottom-width: 5px;
+    border-bottom-color: black;
+    border-bottom-style: solid;
+
+    border-radius: 15px;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+}
+
+.container-categories{
+    width:80%;
+    margin:auto;
+}
+
+.Categories{
+    border-right-width: 3px;
+    border-right-style: dotted;
+    border-right-color: black;
+
+    border-left-width: 3px;
+    border-left-style: dotted;
+    border-left-color: black;
+
+    border-top-width: 3px;
+    border-top-style: dotted;
+    border-top-color: black;
+
+    border-bottom-width: 3px;
+    border-bottom-style: dotted;
+    border-bottom-color: black;
+
+    border-radius: 15px;
+
+    padding: 10px;
+
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.Categories h2{
+    font-family: 'Bradley Hand ITC';
+    font-size: x-large;
+    font-weight: 900;
+    font-style: normal;
+
+    text-decoration: underline;
+    letter-spacing: 0.1em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#main-links{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+}
+
+#main-links:active{
+    color: blue;
+}
+
+#main-links:hover{
+    color: orange;
+}
+
+/* #main-links:visited{
+    color: orangered;
+} */
+
+.Categories ul{
+    list-style: none;
+}
+
+#main-footer ul{
+    list-style: none;
+}
+
+#main-footer li{
+    background-color: darkred;
+    
+}
+
+.Categories li{
+    background-color: darkslategray;
+    padding: 10px;
+    margin: 5px;
+    width: 500%;
+}
+
+.Categories li:hover{
+    background-color: black;
+}
+
+
+.form-container{
+    width: 80%;
+    margin: auto;
+    font-family: 'Times New Roman';
+    font-weight:800;
+    text-align: center;
+}
+
+.my-form{
+    background: white;
+    color: white;
+    padding:20px;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+.form-group{
+        /* border-color: black;
+        border-style: solid; */
+    padding-bottom: 15px;
+}
+
+.my-form label{
+    color: black;
+    display: block;
+}
+
+.my-form input[type="text"], .my-form textarea{
+    border-radius: 8px;
+    padding:  10px;
+    width: 20%;
+}
+
+
+.my-form input[type="submit"]{
+    background-color: black;
+    font-weight: 700;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    align-items: center;
+}
+
+.my-form input[type="email"]{
+    padding: 5px;
+    width: 20%;
+    border-radius: 10px;
+}
+
+.my-form input[type="number"]{
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.my-form input[type="submit"]:hover{
+    background-color: tomato;
+    color: white;
+}
+
+
+/* .p-article h3{
+    font-family: 'Times New Roman';
+    font-weight: 800;
+    font-size: larger;
+} */
+
+
+.p-article{
+    font-family: 'Times New Roman';
+    font-size: medium;
+    float: left;
+    width: 33.3%;
+    border: 1px;
+    border-color: black;
+    border-style: solid;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: blanchedalmond;
+}
